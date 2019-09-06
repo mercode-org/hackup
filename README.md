@@ -1,2 +1,2 @@
-# hackup
-HackUP
+# HackUP
+Main site of HackUP.
