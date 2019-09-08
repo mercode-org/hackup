@@ -1,0 +1,312 @@
+html {
+  font-family: 'pixelfont'
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*----------dalga------------------*/
+.hero {
+  width: 100%;
+  height: 25%;
+  position: relative;
+  background-color: #757575;
+  background-image: #757575;
+}
+
+#particles-js {
+  height: 100%;
+}
+
+.dalga {
+  background: url(resimler/dalga-alt.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  bottom: 0;
+}
+
+.ityped-cursor {
+  font-size: 3.2rem;
+  opacity: 1;
+  -webkit-animation: blink 0.3s infinite;
+  -moz-animation: blink 0.3s infinite;
+  animation: blink 0.3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+.bigyazi {
+  z-index: 50;
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  padding-top: 140px;
+  padding-left: 40px;
+  padding-right: 5px;
+  font-family: 'pixelfont'
+}
+
+.miniyazi {
+  z-index: 50;
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  padding-top: 270px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'pixelfont';
+  text-align: justify;
+}
+
+/*----------header------------------*/
+nav {
+  z-index: 100;
+  margin: 0;
+  padding-top: 0;
+  position: fixed;
+  width: 99%;
+  line-height: 50px;
+}
+
+nav .minilogo {
+  padding: 22px 20px;
+  height: 35px;
+  width: auto;
+  float: left;
+}
+
+nav .minilogo:hover {
+  -webkit-filter: drop-shadow(5px 5px black);
+  filter: drop-shadow(5px 5px black);
+  transition: .2s;
+}
+
+nav.black .minilogo {
+  padding: 22px 20px;
+  height: 35px;
+  width: auto;
+  float: left;
+}
+
+nav.black {
+  background: #757575;
+  box-shadow: 10px 10px black;
+}
+
+nav ul {
+  line-height: 50px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+.menu2 {
+  background: #757575;
+  box-shadow: 10px 10px black;
+}
+
+.menu3 {
+  background: #757575;
+  box-shadow: 10px 10px black;
+}
+}
+
+nav.black ul {
+  line-height: 50px;
+  list-style: none;
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 20px;
+  ;
+}
+
+/*$thetransition: all .5s cubic-bezier(1,.25,0,.75) 0s;*/
+nav ul li a {
+  text-decoration: none;
+  font-family: 'pixelbox', sans-serif;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  text-transform: capitalize;
+  -webkit-filter: drop-shadow(4px 4px black);
+  filter: drop-shadow(4px 4px black);
+  transition: 0.3s;
+}
+
+.menu-icon {
+  line-height: 50px;
+  width: 100%;
+  background: #757575;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+.menu-icon.black {
+  line-height: 50px;
+  width: 100%;
+  background: #757575;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+@media(max-width: 888px) {
+  .dalga {
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+  }
+
+  nav .minilogo {
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    padding: 10px 20px;
+  }
+
+  nav {
+    background: #757575;
+    box-shadow: 10px 10px black;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #757575;
+  }
+
+  nav.black ul {
+    background: #757575;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .bigyazi {
+    font-size: 40px;
+  }
+
+  .miniyazi {
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 550px) {
+  .hero {
+    width: 100%;
+    height: 500px;
+  }
+
+  .dalga {
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+  }
+
+  .bigyazi {
+    font-size: 35px;
+  }
+
+  .miniyazi {
+    padding-top: 250px;
+  }
+}
+
+@media(max-width: 470px) {
+  .bigyazi {
+    font-size: 30px;
+  }
+  .ityped-cursor {
+    font-size: 1.5rem;
+  }
+  .dalga {
+    width: 120%;
+    height: 30%;
+    bottom: 0;
+  }
+}
+@media(max-width: 470px) {
+  .bigyazi {
+    font-size: 27px;
+  }
+}
+
+
+@media screen and (min-width: 550px) {
+  .hero {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background-color: #757575;
+    background-image: #757575;
+  }
+
+  .dalga {
+    background: url(resimler/dalga-alt.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom: 0;
+  }
+
+}
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<head>
+  <title>HackUP</title>
+  <link rel="stylesheet" type="text/css" href="stiller.css">
+  <link rel="stylesheet" type="text/css" href="fontlar.css">
+  <link rel="stylesheet" type="text/css" href="animate.css">
+  <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.png" />
+  <meta charset="UTF-8">
+  <script src="jquery-3.3.1.js"></script>
+</head>
+<div class="sargi">
+
+  <nav>
+
+    <div class="menu-icon">
+      <i class="fa fa-bars fa-2x"></i>
+    </div>
+
+    <div class="menu">
+      <div class="logo">
+        <img class="minilogo" src="resimler/logo.png" alt=""></img>
+      </div>
+      <ul>
+        <li><a href="hizmetlerimiz.html">About</a></li>
+        <li><a href="projeler.html">Blog</a></li>
+        <li><a href="iletisim.html">Contact</a></li>
+        <li><a href="blog.html">ımı</a></li>
+        <li><a href="hakkimizda.html">Mercode</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<body>
+  <div class="hero">
+    <p class="bigyazi">printf "<span id=ityped></span>";</p>
+    <p class="miniyazi">function MyFunction(Greeter) {
+      <br/><span id="ityped2"></span>
+    <br/>};
+    </p>
+    <br/>
+    <div class="dalga"></div>
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing");
+      });
+    });
+
+
+    $(window).on("scroll", function() {
+      if ($(window).scrollTop()) {
+        $('nav').addClass('black');
+      } else {
+        $('nav').removeClass('black');
+      }
+    })
+  </script>
+
+  <script type="text/javascript" src="ityped.js"></script>
+  <script type="text/javascript">
+     window.ityped.init(document.querySelector('#ityped'),{
+         loop:       false,
+         cursorChar: "_",
+         strings : ['Welcome to HackUP!']
+
+  })
+    window.ityped.init(document.querySelector('#ityped2'),{
+        loop:       false,
+        showCursor: false,
+        startDelay: 1700,
+        typeSpeed:  70,
+        strings : ['HackUP is an IT club formed by High School and University students worldwide. It is currently present in IMI High School.']
+
+  })
+  </script>
+         <!--strings : ['HackUP is an IT club formed by High School and University students worldwide. It is currently present in IMI High School.']-->
+
+</body>
+
+</html>
