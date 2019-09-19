@@ -12,8 +12,8 @@ body {
   width: 100%;
   height: 25%;
   position: relative;
-  background-color: #757575;
-  background-image: #757575;
+  background-color: black;
+  background-image: black;
 }
 
 #particles-js {
@@ -98,8 +98,8 @@ nav .minilogo {
 }
 
 nav .minilogo:hover {
-  -webkit-filter: drop-shadow(5px 5px black);
-  filter: drop-shadow(5px 5px black);
+  -webkit-filter: drop-shadow(5px 5px #757575);
+  filter: drop-shadow(5px 5px #757575);
   transition: .2s;
 }
 
@@ -111,8 +111,8 @@ nav.black .minilogo {
 }
 
 nav.black {
-  background: #757575;
-  box-shadow: 10px 10px black;
+  background: black;
+  box-shadow: 10px 10px #757575;
 }
 
 nav ul {
@@ -129,13 +129,13 @@ nav ul {
 }
 
 .menu2 {
-  background: #757575;
-  box-shadow: 10px 10px black;
+  background: black;
+  box-shadow: 10px 10px #757575;
 }
 
 .menu3 {
-  background: #757575;
-  box-shadow: 10px 10px black;
+  background: black;
+  box-shadow: 10px 10px #757575;
 }
 }
 
@@ -167,15 +167,15 @@ nav ul li a {
 
 nav ul li a:hover {
   text-transform: capitalize;
-  -webkit-filter: drop-shadow(4px 4px black);
-  filter: drop-shadow(4px 4px black);
+  -webkit-filter: drop-shadow(4px 4px #757575);
+  filter: drop-shadow(4px 4px #757575);
   transition: 0.3s;
 }
 
 .menu-icon {
   line-height: 50px;
   width: 100%;
-  background: #757575;
+  background: black;
   text-align: right;
   box-sizing: border-box;
   padding: 15px 24px;
@@ -187,7 +187,7 @@ nav ul li a:hover {
 .menu-icon.black {
   line-height: 50px;
   width: 100%;
-  background: #757575;
+  background: black;
   text-align: right;
   box-sizing: border-box;
   padding: 15px 24px;
@@ -211,17 +211,17 @@ nav ul li a:hover {
   }
 
   nav {
-    background: #757575;
-    box-shadow: 10px 10px black;
+    background: black;
+    box-shadow: 10px 10px #757575;
   }
 
   nav ul {
     max-height: 0px;
-    background: #757575;
+    background: black;
   }
 
   nav.black ul {
-    background: #757575;
+    background: black;
   }
 
   .showing {
@@ -294,8 +294,8 @@ nav ul li a:hover {
     width: 100%;
     height: 650px;
     position: relative;
-    background-color: #757575;
-    background-image: #757575;
+    background-color: black;
+    background-image: black;
   }
 
   .dalga {
