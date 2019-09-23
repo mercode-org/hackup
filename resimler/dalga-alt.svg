@@ -10,7 +10,7 @@
    viewBox="0 0 1440 320"
    version="1.1"
    id="svg4"
-   sodipodi:docname="wave (4).svg"
+   sodipodi:docname="dalga-alt.svg"
    inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
      id="metadata10">
@@ -39,8 +39,8 @@
      inkscape:window-height="714"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="0.55651313"
-     inkscape:cx="665.91323"
+     inkscape:zoom="1.32675"
+     inkscape:cx="638.32216"
      inkscape:cy="160"
      inkscape:window-x="0"
      inkscape:window-y="26"
@@ -51,5 +51,5 @@
      fill-opacity="1"
      d="M0,64L0,192L80,192L80,288L160,288L160,288L240,288L240,288L320,288L320,192L400,192L400,160L480,160L480,256L560,256L560,192L640,192L640,128L720,128L720,192L800,192L800,96L880,96L880,160L960,160L960,96L1040,96L1040,128L1120,128L1120,128L1200,128L1200,128L1280,128L1280,160L1360,160L1360,96L1440,96L1440,320L1360,320L1360,320L1280,320L1280,320L1200,320L1200,320L1120,320L1120,320L1040,320L1040,320L960,320L960,320L880,320L880,320L800,320L800,320L720,320L720,320L640,320L640,320L560,320L560,320L480,320L480,320L400,320L400,320L320,320L320,320L240,320L240,320L160,320L160,320L80,320L80,320L0,320L0,320Z"
      id="path2"
-     style="fill:#ffffff" />
+     style="fill:#ffffff;fill-opacity:1" />
 </svg>
