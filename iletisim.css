@@ -1,0 +1,91 @@
+body
+{
+  margin-top: 100px;
+  text-align: center;
+  padding: 0;
+  font-family: 'pixelfont', sans-serif;
+  background: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+form {
+  max-width: 500px;
+  width: 85%;
+  background: black;
+  position: relative;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  text-align: left;
+  box-shadow: 10px 10px #33691E;
+  margin: 0 auto 50px;
+}
+#formbaslik {
+  font-size: 34px;
+  color: white;
+  transition: 0.2s;
+
+}
+.txtb{
+  margin: 8px 0;
+  padding: 5px 18px;
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.txtb input,.txtb textarea{
+  width: 100%;
+  border: none;
+  color: white;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  display: block;
+  margin-top: 6px;
+  font-family: 'pixelfont', sans-serif;
+}
+#formbaslik:hover {
+  font-size: 34px;
+  color: black;
+}
+::-webkit-input-placeholder {
+  color: #33691E;
+}
+::-webkit-input-placeholder:hover {
+  color: white;
+  -webkit-filter: drop-shadow(2px 2px #33691E);
+  filter: drop-shadow(2px 2px #33691E);
+}
+.formbutton {
+  background: none;
+  border: none;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: right;
+  -webkit-filter: drop-shadow(2px 2px #33691E);
+  filter: drop-shadow(2px 2px #33691E);
+  font-family: 'pixelbox', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/*.formbutton .sendit {
+  font-size: 25px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-family: 'pixelfont', sans-serif;
+  padding-right:4px;
+}*/
+.formbutton:hover {
+  -webkit-filter: drop-shadow(4px 4px #33691E);
+  filter: drop-shadow(4px 4px #33691E);
+  text-transform: capitalize;
+  transition: .2s;
+}

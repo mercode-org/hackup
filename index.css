@@ -1,0 +1,71 @@
+/*----------dalga------------------*/
+html {
+  background-color: white;
+}
+.hero {
+  width: 100%;
+  height: 25%;
+  position: relative;
+  background-color: black;
+  background-image: black;
+}
+
+.dalga {
+  background: url(resimler/dalga-alt.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  bottom: 0;
+}
+
+@media(max-width: 888px) {
+  .dalga {
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+  }
+}
+
+@media(max-width: 550px) {
+  .hero {
+    width: 100%;
+    height: 500px;
+  }
+
+  .dalga {
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+  }
+}
+
+@media(max-width: 470px) {
+  .dalga {
+    width: 120%;
+    height: 30%;
+    bottom: 0;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .hero {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background-color: black;
+    background-image: black;
+  }
+
+  .dalga {
+    background: url(resimler/dalga-alt.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom: 0;
+  }
+
+}

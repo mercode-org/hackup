@@ -5,8 +5,8 @@
 <head>
   <title>HackUP</title>
   <link rel="stylesheet" type="text/css" href="stiller.css">
-  <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" type="text/css" href="fontlar.css">
+  <link rel="stylesheet" type="text/css" href="iletisim.css">
   <link rel="stylesheet" type="text/css" href="animate.css">
   <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.png" />
@@ -37,15 +37,39 @@
 </div>
 
 <body>
-  <div class="hero">
-    <p class="bigyazi" id="bigyazi1">printf "<span id=ityped></span>";</p>
-    <p class="miniyazi">function Welcometo(HackUp) {
-      <br/><span id="ityped2"></span>
-      <br/>};
-    </p>
-    <br/>
-    <div class="dalga"></div>
-  </div>
+  <p class="bigyazi" id="bigyazi2"><span id=ityped></span></p>
+  <p class="miniyazi" id="miniyazi1"><span id=ityped2></span></p>
+  <form method="POST" action="https://formspree.io/hackuporg@yandex.com">
+    <div class="txtb">
+      <label><span>Name</span>
+        <input type="text" name="name" placeholder="Name:_"></label>
+    </div>
+    <div class="txtb">
+      <label><span>Class</span>
+        <input type="text" name="name" placeholder="Class:_"></label>
+    </div>
+    <div class="txtb">
+      <label><span>E-mail</span>
+        <input type="email" name="replyto" placeholder="E-Mail:_"></label>
+    </div>
+    <div class="txtb">
+      <label><span>Phone</span>
+        <input type="number" name="phone" placeholder="Phone Number(Not mandatory):_"></label>
+    </div>
+    <div class="txtb">
+      <label><span>Message</span>
+        <textarea name="message" placeholder="Interests:_"></textarea></label>
+    </div>
+    <div class="txtb">
+      <label><span>Message</span>
+        <textarea name="message" placeholder="Experience with coding:_"></textarea></label>
+    </div>
+    <div class="txtb">
+      <label><span>Message</span>
+        <textarea name="message" placeholder="Github Page(Not mandatory):_"></textarea></label>
+    </div>
+    <button class="formbutton"><a class="send">Transmit</a></button>
+  </form>
 
   <script type="text/javascript">
     $(document).ready(function() {
@@ -63,26 +87,23 @@
       }
     })
   </script>
-
   <script type="text/javascript" src="ityped.js"></script>
   <script type="text/javascript">
      window.ityped.init(document.querySelector('#ityped'),{
          loop:       false,
          cursorChar: "_",
-         strings : ['Welcome to HackUP!']
+         strings : ['###REGISTER###']
 
   })
     window.ityped.init(document.querySelector('#ityped2'),{
         loop:       false,
         showCursor: false,
-        startDelay: 1700,
+        startDelay: 100,
         typeSpeed:  70,
-        strings : ['HackUP is an IT club and Hackerspace formed by High School and University students worldwide. It is currently present in IMI High School.']
+        strings : ['To become a member of HackUP, you need to fill the registration survey.']
 
   })
   </script>
-         <!--strings : ['HackUP is an IT club formed by High School and University students worldwide. It is currently present in IMI High School.']-->
-
 </body>
 
 </html>

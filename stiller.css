@@ -5,20 +5,11 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background: black;
 }
 
 /*----------dalga------------------*/
-.hero {
-  width: 100%;
-  height: 25%;
-  position: relative;
-  background-color: black;
-  background-image: black;
-}
 
-#particles-js {
-  height: 100%;
-}
 
 /*.dalga {
   background: url(resimler/dalga-alt.svg);
@@ -58,39 +49,78 @@ body {
 }
 
 .bigyazi {
-  z-index: 50;
-  position: absolute;
+  /*z-index: 50;
+  position: absolute;*/
   color: white;
   -webkit-filter: drop-shadow(4px 4px #33691E);
   filter: drop-shadow(4px 4px #33691E);
   font-size: 50px;
-  padding-top: 140px;
+  /*padding-top: 140px;*/
   padding-left: 40px;
   padding-right: 5px;
   font-family: 'pixelfont'
 }
-.miniyazi {
-  z-index: 50;
-  position: absolute;
+.bigyazi:hover {
+  -webkit-filter: drop-shadow(8px 8px #33691E);
+  filter: drop-shadow(8px 8px #33691E);
+  transition: .2s;
+}
+.ortayazi {
+  /*z-index: 50;
+  position: absolute;*/
   color: white;
   -webkit-filter: drop-shadow(2px 2px #33691E);
   filter: drop-shadow(2px 2px #33691E);
-  font-size: 25px;
-  padding-top: 270px;
+  font-size: 20px;
+  top: 0;
   padding-left: 40px;
   padding-right: 40px;
   font-family: 'pixelfont';
   text-align: justify;
 }
-
+.miniyazi {
+  /*z-index: 50;
+  position: absolute;*/
+  color: white;
+  /*-webkit-filter: drop-shadow(2px 2px #33691E);
+  filter: drop-shadow(2px 2px #33691E);*/
+  font-size: 25px;
+  /*padding-top: 270px;*/
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'pixelfont';
+  text-align: justify;
+}
+#bigyazi1 {
+  padding-top: 140px;
+}
+#miniyazi3 {
+  padding-bottom: 40px;
+}
+.link {
+  color: white;
+  font-size: 25px;
+  font-family: 'pixelfont';
+  text-align: justify;
+  -webkit-filter: drop-shadow(2px 2px #33691E);
+  filter: drop-shadow(2px 2px #33691E);
+  text-decoration: underline;
+}
+.link:hover {
+  -webkit-filter: drop-shadow(4px 4px #33691E);
+  filter: drop-shadow(4px 4px #33691E);
+  transition: .2s;
+}
 /*----------header------------------*/
 nav {
   z-index: 100;
   margin: 0;
   padding-top: 0;
+  top: 0;
   position: fixed;
   width: 99%;
   line-height: 50px;
+  background: black;
 }
 
 nav .minilogo {
@@ -108,12 +138,12 @@ nav .minilogo:hover {
   transition: .2s;
 }
 
-nav.black .minilogo {
+/*nav.black .minilogo {
   padding: 22px 20px;
   height: 35px;
   width: auto;
   float: left;
-}
+}*/
 
 nav.black {
   background: black;
@@ -142,7 +172,6 @@ nav ul {
 .menu3 {
   background: black;
   box-shadow: 10px 10px #33691E;
-}
 }
 
 nav.black ul {
@@ -205,11 +234,11 @@ nav ul li a:hover {
 }
 
 @media(max-width: 888px) {
-  .dalga {
+  /*.dalga {
     width: 100%;
     height: 40%;
     bottom: 0;
-  }
+  }*/
 
   nav .minilogo {
     position: fixed;
@@ -249,18 +278,23 @@ nav ul li a:hover {
 
   .bigyazi {
     font-size: 40px;
+    top: 0;
   }
 
   .miniyazi {
+    font-size: 20px;
+    top: 0;
+  }
+  .ortayazi {
+    font-size: 15px;
+    top: 0;
+  }
+  .link {
     font-size: 20px;
   }
 }
 
 @media(max-width: 550px) {
-  .hero {
-    width: 100%;
-    height: 500px;
-  }
 
   .dalga {
     width: 100%;
@@ -273,7 +307,7 @@ nav ul li a:hover {
   }
 
   .miniyazi {
-    padding-top: 250px;
+    padding-top: 10px;
   }
 }
 
@@ -297,24 +331,4 @@ nav ul li a:hover {
 }
 
 
-@media screen and (min-width: 550px) {
-  .hero {
-    width: 100%;
-    height: 650px;
-    position: relative;
-    background-color: black;
-    background-image: black;
-  }
-
-  /*.dalga {
-    background: url(resimler/dalga-alt.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 100%;
-    height: 60%;
-    bottom: 0;
-  }*/
-
-}
 }
