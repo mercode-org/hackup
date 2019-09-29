@@ -21,9 +21,11 @@
     </div>
 
     <div class="menu">
-      <a href="index.html"><div class="logo">
-        <img class="minilogo" src="resimler/logo.png" alt=""></img>
-      </div></a>
+      <a href="index.html">
+        <div class="logo">
+          <img class="minilogo" src="resimler/logo.png" alt=""></img>
+        </div>
+      </a>
       <ul>
         <li><a href="about.html">About</a></li>
         <li><a href="blog.html">Blog</a></li>
@@ -36,28 +38,31 @@
 </div>
 
 <body>
-  <p class="bigyazi" id="bigyazi1">/***What is HackUP?</p>
-  <p class="miniyazi" id="miniyazi1">HackUP is an IT club and Hackerspace formed by High School and University students worldwide. Tan Siret G. Akıncı and Ahmet Martin Gökçü, who are also the members of <a href="https://mercode.org" class="link">Mercode</a>, have found HackUP in <a href="https://www.liceoitaliano.net/" class="link">IMI</a> (Italian
+  <p class="bigyazi" id="bigyazi1"><span id=ityped></span></p>
+  <p class="miniyazi" id="miniyazi1">HackUP is an IT club and Hackerspace formed by High School and University students worldwide. Tan Siret G. Akıncı and Ahmet Martin Gökçü, who are also the members of <a href="https://mercode.org"
+      class="link">Mercode</a>, have found HackUP in <a href="https://www.liceoitaliano.net/" class="link">IMI</a> (Italian
     Scientific High School) in order to start a FOSS Hacker movement in the area. HackUP follows the lessons of older local hackerspaces and subjoins the improvements of global FOSS communities to its rich schedule.</p>
   <br />
-  <p class="bigyazi" id="bigyazi2">/***What is Hackerspace?</p>
+  <p class="bigyazi" id="bigyazi2"><span id=ityped2></span></p>
   <p class="miniyazi" id="miniyazi2">A hackerspace is a community-operated, often not for profit, work space where people with common interests, often in computers, machining, technology, science, digital art or electronic art, can meet, socialize
     and collaborate. There are many hackerspaces in the world. You can check them at <a href="https://wiki.hackerspaces.org/" class="link">this site</a>.</p>
   <br />
-  <p class="bigyazi" id="bigyazi2">/***What is Hacking?</p>
+  <p class="bigyazi" id="bigyazi2"><span id=ityped3></span></p>
   <p class="miniyazi" id="miniyazi2">'Hacking means discovering the limits of what is possible in the spirit of a player intelligence. The player has intelligence worth hacking activities.'
     <br />-– Richard M. Stallman (rms)
   </p>
   <br />
-  <p class="bigyazi" id="bigyazi2">/***The Schedule</p>
+  <p class="bigyazi" id="bigyazi2"><span id=ityped4></span></p>
   <p class="miniyazi" id="miniyazi2">The schedule of HackUP contains Linux (Debian, Ubuntu, Arch), Web Tools and Languages (PHP, Javascript, SQL, Apache, HTML/CSS), Ethical Hacking (SQL Injection, Finding Vulnerabilities, Making A Proxy Server, Kali
     Tools), Decentralization of The Web (Blockchain, IPFS, Dat Protocol, Zeronet, Fediverse), Internet Freedom (Using TOR, RiseUP membership, The Doctrine of Telecommunism). Those workshops will be selected by the majority of the members for the
     season.</p>
-  <p class="bigyazi" id="bigyazi2">/***What should I do for joining to HackUP?</p>
-  <p class="miniyazi" id="miniyazi2">Joining to HackUP is absolutelly free and the only thing you need to do is to is filling the registration survey and following the instructions (if your request is accepted). You can register via <a class="link" href="register.html">this link</a>.</p>
+  <p class="bigyazi" id="bigyazi2"><span id=ityped5></span></p>
+  <p class="miniyazi" id="miniyazi2">Joining to HackUP is absolutelly free and the only thing you need to do is to is filling the registration survey and following the instructions (if your request is accepted). You can register via <a class="link"
+      href="register.html">this link</a>.</p>
   <br />
-  <p class="bigyazi" id="bigyazi2">/***How can I help to HackUP?</p>
-  <p class="miniyazi" id="miniyazi3">You can help to Hackup both financially and morally by donating and contributing to <a href="https://mercode.org" class="link">Mercode</a>, Non-Profit Open Source Software/OS Foundation and Social Network for Developers Worldwide behind HackUP.</p>
+  <p class="bigyazi" id="bigyazi2"><span id=ityped6></span></p>
+  <p class="miniyazi" id="miniyazi3">You can help to Hackup both financially and morally by donating and contributing to <a href="https://mercode.org" class="link">Mercode</a>, Non-Profit Open Source Software/OS Foundation and Social Network for
+    Developers Worldwide behind HackUP.</p>
 
   <script type="text/javascript">
     $(document).ready(function() {
@@ -73,6 +78,48 @@
       } else {
         $('nav').removeClass('black');
       }
+    })
+  </script>
+
+  <script type="text/javascript" src="ityped.js"></script>
+  <script type="text/javascript">
+    window.ityped.init(document.querySelector('#ityped'), {
+      loop: false,
+      cursorChar: "_",
+      strings: ['/***What is HackUP?']
+
+    })
+    window.ityped.init(document.querySelector('#ityped2'), {
+      loop: false,
+      startDelay: 1000,
+      cursorChar: "_",
+      strings: ['/***What is Hackerspace?']
+
+    })
+    window.ityped.init(document.querySelector('#ityped3'), {
+      loop: false,
+      startDelay: 2000,
+      cursorChar: "_",
+      strings: ['/***What is Hacking?']
+    })
+    window.ityped.init(document.querySelector('#ityped4'), {
+      loop: false,
+      startDelay: 1000,
+      cursorChar: "_",
+      strings: ['/***The Schedule']
+
+    })
+    window.ityped.init(document.querySelector('#ityped5'), {
+      loop: false,
+      startDelay: 2000,
+      cursorChar: "_",
+      strings: ['/***How can I join to HackUP?']
+    })
+    window.ityped.init(document.querySelector('#ityped6'), {
+      loop: false,
+      startDelay: 2000,
+      cursorChar: "_",
+      strings: ['/***How can I help to HackUP?']
     })
   </script>
 </body>
